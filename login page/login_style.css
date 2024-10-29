@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/74d734ca-0eab-4cd9-871f-bca01823d872/web/IN-en-20241021-TRIFECTA-perspective_2277eb50-9da3-4fdf-adbe-74db0e9ee2cf_large.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.background-overlay-1{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+}
+.logo-top {
+    margin: 10% 0 0 80%;
+    width: 80%;
+    
+}
+
+.background-overlay-2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.login-container {
+    width: 450px;
+    padding: 48px 68px;
+    background-color: rgba(0, 0, 0, 0.614);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.login-box h2 {
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    line-height: 1.5rem;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    background: #333;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-group label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #8c8c8c;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color: #e50914;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 17.4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.divider span{
+    color: #8c8c8c;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.login-btn-2 {
+    margin: 13px 0 20px 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #55555576;
+    color: white;
+    border: none;   
+    border-radius: 4px;
+    font-size: 17.4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #ae030c;
+}
+
+.login-btn-2:hover {
+    background-color: #3e3e3e76;
+}
+.forgot-password {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 40px 0;
+}
+
+.remember-me {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    
+    label{
+        margin-left: 10px;
+    }
+}
+
+.extra-options {
+    text-align: left;
+    p{
+        margin: 20px 0;
+        font-size: 16px;
+        color: #b7b7b7;
+        
+    }
+    .lower-link-1 {
+        color: white;
+        text-decoration: none;
+    }
+    color: #8c8c8c;
+    margin-top: 20px;
+}
+.lower-link-2 {
+    color: blue;
+    text-decoration: none;
+}
+
+.extra-options a:hover {
+    text-decoration: underline;
+}
